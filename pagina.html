@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <HTML>
 <HEAD>
 <TITLE>
+HTML, CSS, JavaScript
 </TITLE>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <script type="text/javascript" src="script.js"></script>
@@ -12,9 +14,19 @@ h1 {
 </style>
 </HEAD>
 <BODY>
+
 <h1>Página HTML, CSS, e JavaScript</h1>
 <p><b>A soma:</b>
 <script>soma(5, 5)</script>
 </p>
+
+<p><b>Tamanho do texto:</b>
+</p>
+<p id = "texto"></p>
+<script>
+let text = "Higo";
+document.getElementById("texto").innerHTML = text.length;
+</script>
+
 <BODY>
 </HTML>
